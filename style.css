@@ -1,0 +1,96 @@
+/* ==HTML STUFF== */
+
+html {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+}
+
+input, button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #a0a0a0;
+}
+
+table, th, td {
+    font-family: verdana;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    font-size: 25px;
+}
+
+fieldset {
+    font-size: 17px;
+    display: block;
+    border: 3px groove;
+    border-color: black;
+}
+
+/* ==FUNCTIONS== */
+
+.first {
+    margin-bottom: 10px;
+}
+
+.login {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: tomato;
+}
+
+.div1 {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.fieldset1 {
+    border: 2px;
+    display: block;
+    border-color: black;
+}
+
+.fieldset2 {
+    border: 1px groove;
+}
+
+/* ==ID's== */
+
+#fieldset1 {
+    border: 2px groove;
+}
+
+#fieldset2 {
+    width: 25em;
+    border: 1px groove;
+    float: left;
+}
+
+#fieldset3 {
+    width: 25em;
+    border: 1px groove;
+    float: right;
+}
+
+#body_ausen {
+    background-color: #a0a0a0;
+}
+
+#delete_button {
+    color: red;
+}
+
