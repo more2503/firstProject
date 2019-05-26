@@ -31,9 +31,11 @@ if (!$row = mysqli_fetch_assoc($result)) {
 </head>
 <body>
     <div id="login">
-        <?php 
+        <?php
             echo $end;
         ?>
     </div>    
 </body>
 </html>
+
+<!-- TEST -->
