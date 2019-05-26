@@ -41,8 +41,8 @@ include 'dbh.php';
                                     }
 
                                 ?>
-                            </table>    
-                        </div>             
+                            </table>
+                        </div>
                 </fieldset>
                 <fieldset class="fieldset2">
                 <legend>Fach hinzufügen</legend>
@@ -51,7 +51,7 @@ include 'dbh.php';
                             <input class="first" type="text" name="subject" placeholder="Fach">
                             <input class="first" type="submit" name="Submit">
                         </form>
-                    </div> 
+                    </div>
                 </fieldset>
             </fieldset>
 
@@ -65,7 +65,7 @@ include 'dbh.php';
                             <td>password</td>
                             <td>permission</td>
                             <td></td>
-                        </tr>                    
+                        </tr>
                         <?php
                             $sql = "SELECT * FROM users";
 
@@ -87,13 +87,14 @@ include 'dbh.php';
                                 }
                             }
                         ?>
-                    </table>    
+                    </table>
                 </fieldset>
                 <fieldset class="fieldset2">
-                <legend>Benutzer hinzufügen</legend>    
-                
+                <legend>Benutzer hinzufügen</legend>
+
                 </fieldset>
             </fieldset>
         </fieldset>
     </body>
 </html>
+<!-- Nigglas -->
